@@ -1,0 +1,77 @@
+body{
+    background-image: url(Img/fondo.webp);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+header{
+    height: 10%;
+    display: flex;
+    width: 100%;
+}
+main{
+    height: 90%;
+    width: 100%;
+}
+h1{
+    color: white;
+}
+p{
+    color: rgb(0, 100, 194);
+    display: flex;
+    margin: 10px;
+}
+.w-50{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.r{
+    align-items: center;
+    justify-content: end;
+}
+.coli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 10px;
+}
+.roww{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 10px;
+}
+.rowi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px 30px;
+    justify-content: center;
+    
+}
+a{
+    margin: none;
+}
+.imgs{
+    display: flex;
+    width: auto;
+    
+}
+img{
+    border-radius: 10px;
+    margin: none;
+}
