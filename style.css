@@ -45,6 +45,7 @@ p{
     justify-content: center;
     border-radius: 30px;
     margin: 10px;
+
 }
 .roww{
     display: flex;
@@ -63,15 +64,18 @@ p{
     justify-content: center;
     
 }
+.cl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 a{
     margin: none;
 }
 .imgs{
-    display: flex;
-    width: auto;
-    
+    margin: 5%;    
 }
 img{
-    border-radius: 10px;
+    border-radius: 15px;
     margin: none;
 }
